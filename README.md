@@ -35,7 +35,7 @@ Start the application:
 npm start
 
 Deployed App
-You can view the live version of the app at the following link:https://dwaipayancalender.netlify.app/
+You can view the live version of the app at the following link: https://dwaipayancalender.netlify.app/
 
 
 Technologies Used
