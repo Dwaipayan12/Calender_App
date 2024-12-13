@@ -22,7 +22,7 @@ You can download Node.js from the official website: https://nodejs.org/
 
 Steps to Run Locally:
 Clone the repository:
-git clone https://github.com/your-username/calendar-app.git
+git clone https://github.com/Dwaipayan12/Calender_App.git
 
 
 Navigate into the project directory:
@@ -35,7 +35,7 @@ Start the application:
 npm start
 
 Deployed App
-You can view the live version of the app at the following link:
+You can view the live version of the app at the following link:https://dwaipayancalender.netlify.app/
 
 
 Technologies Used
