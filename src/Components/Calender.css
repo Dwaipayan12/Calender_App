@@ -1,0 +1,133 @@
+.monthdiv {
+  /* margin-top: 2%; */
+  height: 680px;
+  width: 900px;
+  padding-left: 10%;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+  gap: 10px; 
+  align-items: flex-start; 
+  }
+  .CalenderDiv{
+    height: 400px;
+    width: 500px;
+    margin-top: 15%;
+    margin-left: 25%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .Firstrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .secondrow {
+    margin-top: 10px;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .week {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .daybutton {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .daybutton:hover {
+    background-color: lightcoral;
+  }
+  .today {
+    background-color: rgb(244, 8, 8); 
+    
+  }
+  .modal{
+    height: 680px;
+    width: 250px;
+    /* margin-top: 8%; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white; 
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    border: 1px solid #ccc; 
+    color: black;
+    position: fixed;
+  }
+
+  .modal h2 {
+    text-align: center;
+    color: #333; /* Set text color to dark for better visibility */
+  }
+  
+  .modal label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333; /* Ensure label text is dark for contrast */
+  }
+  
+  .modal input,
+  .modal textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333; /* Ensure input text is dark for readability */
+    background-color: #fff; /* Set background color to white for contrast */
+    font-size: 14px; /* Set font size for better readability */
+  }
+  
+  .modal input:focus,
+  .modal textarea:focus {
+    border-color: #4CAF50; /* Highlight input on focus with a green border */
+    outline: none; /* Remove default browser outline */
+  }
+  
+  .modal button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white; /* Set text color to white for visibility */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .modal button:hover {
+    background-color: #45a049;
+  }
+  
+  .modal button.cancel {
+    background-color: #f44336;
+  }
+  
+  .modal button.cancel:hover {
+    background-color: #e7352d;
+  }
+  
+  .daybutton.weekend {
+    background-color: #9e4e2c;
+    color: #fff;
+    font-weight: bold;
+  }
